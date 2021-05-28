@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Miles_admin">
+
+	<listeners>
+		<listener class-name="com.Miles_admin.utilities.ExtentReporting" />
+	</listeners>
+	<test name="Miles_admin">
+		<parameter name="Browser" value="GC" />
+		<classes>
+			<class name="com.Miles_admin.tests.Adminlogin" />
+		</classes>
+	</test>
+	
+</suite>
+ 

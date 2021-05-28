@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Driver Closed After Testing]]>
+    </line>
+    <line>
+      <![CDATA[URL opened]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-05-28T10:56:55 IST" name="Miles_admin" finished-at="2021-05-28T10:57:03 IST" duration-ms="7908">
+    <groups>
+    </groups>
+    <test started-at="2021-05-28T10:56:55 IST" name="Miles_admin" finished-at="2021-05-28T10:57:03 IST" duration-ms="7908">
+      <class name="com.Miles_admin.tests.Adminlogin">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.Miles_admin.tests.Adminlogin@20f5239f]" started-at="2021-05-28T10:56:56 IST" name="setup" finished-at="2021-05-28T10:57:00 IST" duration-ms="4820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[GC]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Driver Closed After Testing]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:com.Miles_admin.tests.Adminlogin@20f5239f]" started-at="2021-05-28T10:57:00 IST" name="login" description="Performs an successful login" finished-at="2021-05-28T10:57:02 IST" duration-ms="1593" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[URL opened]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="Teardown()[pri:0, instance:com.Miles_admin.tests.Adminlogin@20f5239f]" started-at="2021-05-28T10:57:02 IST" name="Teardown" finished-at="2021-05-28T10:57:03 IST" duration-ms="1237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- com.Miles_admin.tests.Adminlogin -->
+    </test> <!-- Miles_admin -->
+  </suite> <!-- Miles_admin -->
+</testng-results>
